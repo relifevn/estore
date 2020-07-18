@@ -1,0 +1,65 @@
+/* css document */
+#menutab{
+  width: 1000px;
+  height: 50px;
+}
+
+.left_menu_corner{
+  width: 9px;
+  height: 50px;
+  float: left ;
+  background:red no-repeat center;
+}
+
+.right_menu_corner{
+  width: 9px;
+  height: 50px;
+  float: left ;
+  background:red no-repeat center;
+}
+
+ul.menu {
+  width: 982px;
+  float: left;
+  display:block;
+  list-style-type: none;
+}
+
+a.customer-menu {
+  background: url(../../assets/img/banner/banner.png);
+}
+a.employee-menu {
+  background: url(../../assets/img/banner/img.png);
+}
+a.oder-menu {
+  background: url(../../assets/img/banner/dog.png);
+}
+
+
+ul.menu li{
+  display:inline;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+ul.menu li.devider{
+  display: inline;
+  width: 8px;
+  height: 100px;
+  float: left ;
+  background:red repeat-x center;
+}
+
+ul.menu li a ,ul.menu li a :visited {
+  display: block;
+  float: left;
+  padding: 0 8px 0 22px;
+  margin: 0 105px;
+  height: 100px;
+  text-decoration: none;
+
+
+  color: black;
+}
+
